@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Chennai Sample Geometries</name>
+    <Placemark>
+      <name>Chennai Square Polygon (~1 sq km)</name>
+      <Polygon>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>
+              80.200,13.000,0
+              80.209,13.000,0
+              80.209,13.009,0
+              80.200,13.009,0
+              80.200,13.000,0
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+    <Placemark>
+      <name>Chennai Test Line (~960m)</name>
+      <LineString>
+        <coordinates>
+          80.200,13.000,0
+          80.200,13.0087,0
+        </coordinates>
+      </LineString>
+    </Placemark>
+    <Placemark>
+      <name>Chennai Sample Point</name>
+      <Point>
+        <coordinates>
+          80.205,13.005,0
+        </coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>
